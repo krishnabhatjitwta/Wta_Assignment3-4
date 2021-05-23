@@ -1,0 +1,13 @@
+h3 {
+position: absolute;
+top: 30%;
+left: 70%;
+transform: translate(-50%, -50%);
+}
+
+.image{
+  position: relative;
+  top: 30px;
+  left: 20px;
+  width: 500px;
+}

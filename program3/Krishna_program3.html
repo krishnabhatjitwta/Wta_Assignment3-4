@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>photo rating</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+      <a href="home.html">Home</a> |
+      <a href="Places.html">Places</a> |
+      <a href="Gallery.html">Gallery</a> |
+      <a href="Aboutus.html">About Us</a> |
+      <a href="search.html">Search</a>
+    </header>
+    <h2>Nandi Hills, Bangalore</h2>
+    <img class="image" src="images/nandihills.jpg" alt="">
+    <br>
+    <br>
+    <br>
+    <figcaption>by <a href="index.html">Krishna</a></figcaption>
+    <p>Nandi Hills (Anglicised forms include Nandidurg and Nandydoorg) is an ancient hill fortress built by Ganga Dynasty and later enlarged and strengthened by Tipu Sultan in southern India, in the Chikkaballapur district of Karnataka state. It is 10 km from Chickballapur town and approximately 60 km from Bengaluru. The hills are near the town Nandi. In traditional belief, the hills are the origin of the Arkavathy river, Ponnaiyar River, Palar River,Papagni and Penna River.Watching the sunrise at Nandi Hills is popular with tourists. The first ever SAARC summit hosted by India was held at Nandi Hills in 1986.</p>
+    <table>
+      <tr>
+        <td>Year:2021</td>
+      </tr>
+      <tr>
+        <td>Date:7th January</td>
+      </tr>
+    </table>
+    <h2 style="text-decoration: underline">Reviews</h2>
+
+    <h4>manogna ⭐⭐⭐⭐⭐</h4>
+    <h5>amazing experience!! missed it badly</h5>
+    <hr size="3px" noshade>
+    <h4>aman ⭐⭐⭐⭐</h4>
+    <h4>nice place!</h4>
+    <hr size="3px" noshade>
+    <h4>agarwal ⭐⭐⭐</h4>
+    <h4>good place</h4>
+    <hr size="3px" noshade>
+    <h4>kamath ⭐⭐</h4>
+    <h4>Place is not</h4>
+    <br>
+
+    <header>
+      <a href="home.html">Home</a> |
+      <a href="Places.html">Places</a> |
+      <a href="Gallery.html">Gallery</a> |
+      <a href="Aboutus.html">About Us</a> |
+      <a href="search.html">Search</a>
+    </header>
+    <br>
+    <footer><strong>Copyright &copy; 2021 Nandi Hills</strong></footer>
+
+    <h3 id="krishna"></h3>
+   <script>
+   var var1 = setInterval(inTimer,  200);
+   var fs = 5; //font size
+   var ids = document.getElementById("krishna");
+   function inTimer()
+   {
+   ids.innerHTML = 'Nandi';
+   ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+   fs += 5;
+   if (fs >= 50)
+   {
+   clearInterval(var1); //paused
+   var2 = setInterval(deTimer, 300);
+   }
+   }
+   function deTimer() //fs = 50px
+   {
+   fs -= 5;
+   ids.innerHTML = 'Hills!';
+   ids.setAttribute('style', "font-size: " + fs + "px; color: blue");
+   if (fs == 5)
+   {
+   clearInterval(var2); //paused
+   var1 = setInterval(inTimer, 200);
+   }
+   }
+   </script>
+
+</body>
+
+</html>
