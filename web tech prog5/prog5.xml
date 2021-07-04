@@ -1,0 +1,33 @@
+<?xml-stylesheet type="text/css" href="css/prog5.css"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<h1> STUDENTS DESCRIPTION </h1>
+</head>
+<students>
+<student>
+<USN> ID : 1JT18IS028</USN>
+<name>Name : KRISHNA G BHAT</name>
+<college>COLLEGE : Jyothy Institute of Technology</college>
+<branch>BRANCH : Information Science and Engineering</branch>
+<year>YEAR : 2018</year>
+<e-mail>E-Mail : 1jt18is029@jyothyit.ac.in</e-mail>
+</student>
+<student>
+<USN>USN : 1JT18IS004 </USN>
+<name>NAME : AFNAN  </name>
+<college>COLLEGE : JIT</college>
+<branch>BRANCH : Information Science and Engineering</branch>
+<year>YEAR : 2018</year>
+<e-mail>E-Mail : afnan@gmail.com</e-mail>
+</student>
+<student>
+<USN>USN : 1JT18IS030</USN>
+<name>NAME : BHAU</name>
+<college>COLLEGE : JIT</college>
+<branch>BRANCH : Information Science and Engineering</branch>
+<year>YEAR : 2018</year>
+<e-mail>E-Mail : bhau@gmail.com</e-mail>
+</student>
+</students>
+</html>
